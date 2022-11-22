@@ -22,12 +22,14 @@ export default function App() {
           tabBarStyle: {
             height: 65,
             backgroundColor: "rgb(0,0,0)",
-            borderTopWidth: 0,
+            borderTopWidth: 1,
+            borderTopColor:""
           },
           tabBarShowLabel: false,
           tabBarActiveTintColor: "white",
           headerStyle:{
-            backgroundColor:"black"
+            backgroundColor:"black",
+            borderBottomColor:""
           }
         }}
       >
