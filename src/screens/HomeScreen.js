@@ -14,12 +14,12 @@ const HomeScreen = ({navigation}) => {
             ),
             headerTitle:()=>(
                 <FontAwesome5 name='twitter' size={25} color={'#00acee'} />
-            )
+            ),
         })
     },[])
 
   return (
-    <View>
+    <View style={styles.container}>
       <Text>HomeScreen</Text>
     </View>
   )
@@ -27,4 +27,9 @@ const HomeScreen = ({navigation}) => {
 
 export default HomeScreen
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    container:{
+        flex:1,
+        backgroundColor:"black",
+    }
+})
