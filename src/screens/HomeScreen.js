@@ -1,6 +1,9 @@
 import { StyleSheet, Text, View,Image } from 'react-native'
 import React,{useEffect} from 'react'
 import FontAwesome5 from "react-native-vector-icons/FontAwesome5";
+import TweetCard from '../components/tweet/TweetCard';
+import { ScrollView } from 'react-native-web';
+import { DummyData } from '../dummyData/DummyData'
 
 const HomeScreen = ({navigation}) => {
     useEffect(()=>{
@@ -20,7 +23,17 @@ const HomeScreen = ({navigation}) => {
 
   return (
     <View style={styles.container}>
-      <Text>HomeScreen</Text>
+    <ScrollView >
+        {DummyData.map(dat =>
+        <TweetCard 
+        prof={dat.prof} id={dat.id} name={dat.name} 
+        verified={dat.verified} image={dat.image}
+        tweet={dat.tweet} time={dat.time} like={dat.like}
+        rt={dat.rt} reply={dat.reply} 
+        />
+        )}
+      
+    </ScrollView>
     </View>
   )
 }
