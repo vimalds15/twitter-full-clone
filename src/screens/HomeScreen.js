@@ -1,9 +1,8 @@
-import { StyleSheet, Text, View,Image } from 'react-native'
+import { StyleSheet, ScrollView, View,Image, FlatList } from 'react-native'
 import React,{useEffect} from 'react'
 import FontAwesome5 from "react-native-vector-icons/FontAwesome5";
 import TweetCard from '../components/tweet/TweetCard';
-import { ScrollView } from 'react-native-web';
-import { DummyData } from '../dummyData/DummyData'
+import {DummyData} from '../dummydata/DummyData'
 
 const HomeScreen = ({navigation}) => {
     useEffect(()=>{
@@ -21,9 +20,12 @@ const HomeScreen = ({navigation}) => {
         })
     },[])
 
+  
+
+
   return (
     <View style={styles.container}>
-    <ScrollView >
+        <ScrollView>
         {DummyData.map(dat =>
         <TweetCard 
         prof={dat.prof} id={dat.id} name={dat.name} 
@@ -32,8 +34,7 @@ const HomeScreen = ({navigation}) => {
         rt={dat.rt} reply={dat.reply} 
         />
         )}
-      
-    </ScrollView>
+        </ScrollView>
     </View>
   )
 }
