@@ -80,3 +80,82 @@ export const DummyData = [
     },
     
 ]
+
+export const TrendingData = [
+    {
+        topic:"Trending in India",
+        hashtag:"Shameless",
+        count:"26.5k"
+    },
+    {
+        topic:"Trending in India",
+        hashtag:"GPay",
+        count:"2,185"
+    },
+    {
+        topic:"Sports · Trending",
+        hashtag:"RishabhPant",
+        count:"2,550 "
+    },
+    {
+        topic:"Sports · Trending",
+        hashtag:"INDvsNZ",
+        count:"5,310"
+    },
+    {
+        topic:"Holidays · Trending",
+        hashtag:"Thanksgiving",
+        count:"1.84M"
+    },
+    {
+        topic:"Trending",
+        hashtag:"EaseMyTrip Best Travel App",
+        count:"1,723"
+    },
+    {
+        topic:"Trending",
+        hashtag:"Portugal",
+        count:"84.8K"
+    },
+    {
+        topic:"Trending",
+        hashtag:"Fake News Factory",
+        count:"65.4K"
+    },
+    {
+        topic:"Only on Twitter · Trending",
+        hashtag:"Seed Campaign",
+        count:"20.9K"
+    },
+    {
+        topic:"Only on Twitter · Trending",
+        hashtag:"Digital Fasting",
+        count:"21.8K"
+    },
+    {
+        topic:"Cricket · Trending",
+        hashtag:"Dhawan",
+        count:"9,792"
+    },
+
+    {
+        topic:"Trending",
+        hashtag:"Canada",
+        count:"233K"
+    },
+    {
+        topic:"Trending",
+        hashtag:"Germany",
+        count:"245K"
+    },
+    {
+        topic:"Trending",
+        hashtag:"International Day",
+        count:"21.8K"
+    },
+    {
+        topic:"Trending",
+        hashtag:"Leao",
+        count:"120K"
+    },
+]
