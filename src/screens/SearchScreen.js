@@ -1,6 +1,8 @@
-import { StyleSheet, Text, TextInput,Image, View,Dimensions } from 'react-native'
+import { StyleSheet, Text, TextInput,Image, View,Dimensions, ScrollView } from 'react-native'
 import React,{useEffect} from 'react'
 import MaterialIcons from "react-native-vector-icons/MaterialIcons";
+import TrendingCard from "../components/TrendingCard"
+import { TrendingData } from '../dummydata/DummyData';
 
 const ScreenWidth = Dimensions.get('window').width;
 
@@ -15,7 +17,7 @@ const SearchScreen = ({navigation}) => {
       style={styles.searchText}
       />),
       headerLeft: () => (
-        <Image 
+        <Image
             style={{height:30,width:30,borderRadius:30,marginLeft:15}}
             source={{uri:"https://lh3.googleusercontent.com/ogw/AOh-ky2cWsAILwBTX3_R494N5SH1ZlXSfUd5xOx93gTJNg=s32-c-mo"}}
         />
@@ -31,8 +33,13 @@ const SearchScreen = ({navigation}) => {
   ))
 
   return (
-    <View>
-      <Text>SearchScreen</Text>
+    <View style={styles.container}>
+      <ScrollView>
+      {TrendingData.map(dat => 
+        
+          <TrendingCard topic={dat.topic} hashtag={dat.hashtag} count={dat.count} />
+        )}
+      </ScrollView>
     </View>
   )
 }
@@ -40,6 +47,10 @@ const SearchScreen = ({navigation}) => {
 export default SearchScreen
 
 const styles = StyleSheet.create({
+  container:{
+    flex:1,
+    backgroundColor:"black"
+  },
   searchText:{
     flex:2,
     backgroundColor:"#262626",
