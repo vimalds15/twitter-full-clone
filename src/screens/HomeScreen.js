@@ -1,7 +1,7 @@
 import { StyleSheet, ScrollView, View,Image, FlatList } from 'react-native'
 import React,{useEffect} from 'react'
 import FontAwesome5 from "react-native-vector-icons/FontAwesome5";
-import TweetCard from '../components/tweet/TweetCard';
+import TweetCard from '../components/TweetCard';
 import {DummyData} from '../dummydata/DummyData'
 
 const HomeScreen = ({navigation}) => {
