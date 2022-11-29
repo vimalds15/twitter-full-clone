@@ -85,77 +85,92 @@ export const TrendingData = [
     {
         topic:"Trending in India",
         hashtag:"Shameless",
-        count:"26.5k"
+        count:"26.5k",
+        id:1,
     },
     {
         topic:"Trending in India",
         hashtag:"GPay",
-        count:"2,185"
+        count:"2,185",
+        id:2,
     },
     {
         topic:"Sports · Trending",
         hashtag:"RishabhPant",
-        count:"2,550 "
+        count:"2,550 ",
+        id:3,
     },
     {
         topic:"Sports · Trending",
         hashtag:"INDvsNZ",
-        count:"5,310"
+        count:"5,310",
+        id:4,
     },
     {
         topic:"Holidays · Trending",
         hashtag:"Thanksgiving",
-        count:"1.84M"
+        count:"1.84M",
+        id:5,
     },
     {
         topic:"Trending",
         hashtag:"EaseMyTrip Best Travel App",
-        count:"1,723"
+        count:"1,723",
+        id:6,
     },
     {
         topic:"Trending",
         hashtag:"Portugal",
-        count:"84.8K"
+        count:"84.8K",
+        id:7,
     },
     {
         topic:"Trending",
         hashtag:"Fake News Factory",
-        count:"65.4K"
+        count:"65.4K",
+        id:8,
     },
     {
         topic:"Only on Twitter · Trending",
         hashtag:"Seed Campaign",
-        count:"20.9K"
+        count:"20.9K",
+        id:9,
     },
     {
         topic:"Only on Twitter · Trending",
         hashtag:"Digital Fasting",
-        count:"21.8K"
+        count:"21.8K",
+        id:10,
     },
     {
         topic:"Cricket · Trending",
         hashtag:"Dhawan",
-        count:"9,792"
+        count:"9,792",
+        id:11,
     },
 
     {
         topic:"Trending",
         hashtag:"Canada",
-        count:"233K"
+        count:"233K",
+        id:12,
     },
     {
         topic:"Trending",
         hashtag:"Germany",
-        count:"245K"
+        count:"245K",
+        id:13,
     },
     {
         topic:"Trending",
         hashtag:"International Day",
-        count:"21.8K"
+        count:"21.8K",
+        id:14,
     },
     {
         topic:"Trending",
         hashtag:"Leao",
-        count:"120K"
+        count:"120K",
+        id:15,
     },
 ]
