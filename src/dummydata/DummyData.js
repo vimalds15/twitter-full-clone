@@ -174,3 +174,76 @@ export const TrendingData = [
         id:15,
     },
 ]
+
+export const SpacesData =[
+    {
+        id:1,
+        title:"F4F 💯 Gain 1k Followers (Small Accounts Matter 🫂)",
+        tags:"Animation · Nature · Sports",
+        pic1:"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+        pic2:"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+        pic3:"https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&w=1000&q=80",
+        listenCount:"100",
+        hostPic:"https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        hostName:"JS Dennis Richard",
+        color:"rgba(212, 34, 197,0.9)",
+        hostColor:"rgba(212, 34, 197,0.6)",
+        desc:"Fortune 100 AI/ML Scientist ||| Don't miss my giveaways ||"
+    },
+    {
+        id:2,
+        title:"NFT Share ❤️ Buying NFTS 🎨🛍️🛒 Pin 📌 Up ur Art 🔥 37 NFTs Collect",
+        tags:"NFTs · Cryptocurrencies",
+        pic1:"https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        pic2:"https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        pic3:"https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        listenCount:"48k",
+        hostPic:"https://images.unsplash.com/photo-1530268729831-4b0b9e170218?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        hostName:"Harps Joseph",
+        color:"rgba(250, 5, 5,0.9)",
+        hostColor:"rgba(250, 5, 5,0.6)",
+        desc:"GEN2 COMING... Join By Owning a @Doodlegenics #NFT"
+    },
+    {
+        id:3,
+        title:"#24HourSpace | #TogetherBlue | #NYG | #NYGians | Twitch.tv",
+        tags:"NYG",
+        pic1:"https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        pic2:"https://images.unsplash.com/photo-1481824429379-07aa5e5b0739?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        pic3:"https://images.unsplash.com/photo-1507038732509-8b1a9623223a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        listenCount:"19",
+        hostPic:"https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        hostName:"RZeroB",
+        color:"rgba(44, 29, 207,0.9)",
+        hostColor:"rgba(44, 29, 207,0.6)",
+        desc:"Name is Rob, loving Husband, Proud Father, Die Hard #Giants fan"
+    },
+    {
+        id:4,
+        title:"420hrs Nonstop: The PUFFATHON by @puffpandas #thenmintisnigh #nfts",
+        tags:"Cryptocurrencies · Arts & Culture · NFTs",
+        pic1:"https://images.unsplash.com/photo-1519419691348-3b3433c4c20e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        pic2:"https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        pic3:"https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        listenCount:"126k",
+        hostPic:"https://images.unsplash.com/photo-1484688493527-670f98f9b195?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        hostName:"Puff Puff Pandas",
+        color:"rgba(32, 212, 25,0.9)",
+        hostColor:"rgba(32, 212, 25,0.6)",
+        desc:"Revolutionizing cannabals and creative experiences through IRL utility and PFPs."
+    },
+    {
+        id:5,
+        title:"Spend your time with me",
+        tags:"Simply",
+        pic1:"https://images.unsplash.com/photo-1492447273231-0f8fecec1e3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        pic2:"https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        pic3:"https://images.unsplash.com/photo-1508186225823-0963cf9ab0de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        listenCount:"48k",
+        hostPic:"https://images.unsplash.com/photo-1439778615639-28529f7628bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        hostName:"naviro",
+        color:"rgba(207, 29, 186,0.9)",
+        hostColor:"rgba(207, 29, 186,0.6)",
+        desc:"hi, how was heaven when you left it?"
+    },
+]
