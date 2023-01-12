@@ -17,7 +17,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator
-        initialRouteName="search"
+        initialRouteName="notification"
         screenOptions={{
           tabBarStyle: {
             height: 65,
