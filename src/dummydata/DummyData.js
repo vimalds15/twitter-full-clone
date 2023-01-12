@@ -247,3 +247,86 @@ export const SpacesData =[
         desc:"hi, how was heaven when you left it?"
     },
 ]
+
+export const NotificationData =[
+    {
+        id:1,
+        type:"heart",
+        color:"#d91154",
+        pic:[
+            "https://images.unsplash.com/photo-1439778615639-28529f7628bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+            "https://images.unsplash.com/photo-1508186225823-0963cf9ab0de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        ],
+        title:"Dennis Richard and aniket.nft| #W3bian liked your tweet",
+        desc:"Hey guys, just uploaded PART 3 of Twitter Mobile App full clone series.. Do check it out!",
+    },
+    {
+        id:2,
+        type:"heart",
+        color:"#d91154",
+        pic:[
+            "https://images.unsplash.com/photo-1484688493527-670f98f9b195?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        ],
+        title:"naviro liked 2 of your tweets",
+        desc:"Learn Dynamic programming... You'll approach every problem with, 'Can I solve it with DP?'",
+    },
+    {
+        id:3,
+        type:"account",
+        color:"white",
+        pic:[
+            "https://images.unsplash.com/photo-1439778615639-28529f7628bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+            "https://images.unsplash.com/photo-1508186225823-0963cf9ab0de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+        ],
+        title:"Dennis Richard and 2 others followed you",
+        desc:null,
+    },
+    {
+        id:4,
+        type:"twitter",
+        color:"#00acee",
+        pic:null,
+        title:"There was login to your account @random from a new device on Jan 24, 2023. Review it now",
+        desc:null,
+    },
+    {
+        id:5,
+        type:"heart",
+        color:"#d91154",
+        pic:[
+            "https://lh3.googleusercontent.com/ogw/AOh-ky2cWsAILwBTX3_R494N5SH1ZlXSfUd5xOx93gTJNg=s32-c-mo",
+        ],
+        title:"Vimal Dev | Av codes liked a reply to your Tweet",
+        desc:"No time lately but hoping to make more videos this year",
+    },
+    {
+        id:6,
+        type:"heart",
+        color:"#d91154",
+        pic:[
+            "https://images.unsplash.com/photo-1530268729831-4b0b9e170218?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        ],
+        title:"Harps Joesph liked your reply",
+        desc:null,
+    },
+
+]
+
+export const ChatData =[
+    {
+        id:"elonmusk",
+        name:"Elon Musk",
+        verified:true,
+        msg:"Hey Vimal!",
+        image:null,
+        prof:"https://pbs.twimg.com/profile_images/1590968738358079488/IY9Gx6Ok_400x400.jpg",
+    },
+    {
+        id:"ykdojo",
+        name:"YK aka CS Dojo",
+        msg:"Never do something based on FOMO or peer pressure..",
+        verified:false,
+        image:null,
+        prof:"https://pbs.twimg.com/profile_images/1376825810900819968/RPtw5WuB_400x400.jpg",
+    },
+]
